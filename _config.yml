@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Travis Kaufman
+subtitle: Software Person
+description: Travis Kaufman is a Software Engineer from New York, NY who loves NodeJS, Scala, Go, and all things interesting
+author: Travis Kaufman
+language: en-US
+timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://traviskaufman.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
@@ -62,7 +62,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: carbon
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
